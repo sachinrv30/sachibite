@@ -2,13 +2,18 @@
 
 ### Discover. Plan. Cook.
 
-SachiBite is a modern full-stack recipe discovery and meal planning platform designed to make everyday meal planning simple, organized, and enjoyable.
-
-Instead of just finding recipes, SachiBite brings **recipe discovery, favorites, weekly meal planning, and shopping-list management** together in one application.
-
 <div align="center">
 
-### 🍳 Discover Recipes • ❤️ Save Favorites • 📅 Plan Meals • 🛒 Shop Smarter
+**A modern full-stack recipe discovery and meal planning platform built to make everyday cooking simpler, smarter, and more organized.**
+
+<br>
+
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
 
 </div>
 
@@ -16,19 +21,23 @@ Instead of just finding recipes, SachiBite brings **recipe discovery, favorites,
 
 ## 🌟 What is SachiBite?
 
-Planning what to cook can become repetitive and time-consuming.
+**SachiBite** is a full-stack recipe discovery and meal planning application designed to bring the complete cooking-planning workflow into one place.
 
-SachiBite provides a centralized experience where users can:
+Instead of simply browsing recipes, users can **discover meals, save favorites, organize weekly meal plans, and manage shopping lists** through a single modern interface.
 
-- 🔎 Discover recipes
-- 🥕 Explore meals based on ingredients
-- 📖 View detailed recipes
-- ❤️ Save favorite recipes
-- 📅 Organize weekly meals
-- 🛒 Manage shopping ingredients
-- 👤 Personalize their experience
+### The SachiBite workflow
 
-The idea is simple:
+```text
+        🔎 DISCOVER
+             ↓
+        ❤️ SAVE
+             ↓
+        📅 PLAN
+             ↓
+        🛒 SHOP
+             ↓
+         🍳 COOK
+```
 
 > **Find something delicious → Plan your meals → Organize your ingredients → Cook with confidence.**
 
@@ -40,41 +49,35 @@ The idea is simple:
 
 Explore recipes through a clean and responsive interface.
 
-### Features
-
-- Recipe browsing
+- Browse recipes
 - Ingredient-based discovery
-- Recipe search
-- Recipe filtering
-- Recipe details
-- Cooking information
+- Search recipes
+- Filter recipes
+- View detailed recipe information
 - Recipe images
+- Cooking information
 
 ---
 
 ## ❤️ Favorites
 
-Never lose a recipe you love.
+Create a personalized collection of recipes.
 
-Users can:
-
-- Save recipes
+- Save favorite recipes
 - View saved recipes
 - Remove favorites
-- Maintain a personalized recipe collection
+- Quickly access preferred recipes
 
 ---
 
 ## 📅 Weekly Meal Planner
 
-Turn individual recipes into an organized weekly plan.
-
-Users can:
+Turn individual recipes into an organized weekly cooking schedule.
 
 - Plan meals by day
-- Add recipes to their schedule
+- Add recipes to specific days
 - Manage planned meals
-- Organize their weekly cooking routine
+- Organize weekly cooking routines
 
 Example:
 
@@ -90,50 +93,44 @@ Friday       → 🍕 Pizza
 
 ## 🛒 Shopping List
 
-Meal planning becomes easier when ingredients are organized.
+Keep track of ingredients required for your meals.
 
-SachiBite provides a dedicated shopping-list system for:
-
-- Adding ingredients
-- Removing items
-- Managing shopping requirements
-- Organizing ingredients needed for meals
+- Add shopping items
+- Remove items
+- Manage shopping requirements
+- Organize ingredients
+- Support meal preparation
 
 ---
 
 ## 👤 Personalized Experience
 
-Users can manage their profile and preferences through a dedicated profile section.
-
-The application supports:
+Manage your preferences and application settings.
 
 - User preferences
 - Food preferences
+- Profile management
 - Application settings
 - Personalized experience
 
 ---
 
-# 🔐 Authentication
+## 🔐 Secure Authentication
 
 SachiBite uses **JWT-based authentication** to protect user-specific functionality.
 
 ```text
-             ┌───────────────┐
-             │     User      │
-             └───────┬───────┘
-                     │
-                     ▼
-              Register / Login
-                     │
-                     ▼
-                JWT Token
-                     │
-                     ▼
-          Authenticated Requests
-                     │
-                     ▼
-              Protected APIs
+Register
+   ↓
+Login
+   ↓
+JWT Token
+   ↓
+Authenticated Request
+   ↓
+Auth Middleware
+   ↓
+Protected Resource
 ```
 
 Protected areas include:
@@ -146,30 +143,139 @@ Protected areas include:
 
 ---
 
+# 📸 Application Preview
+
+SachiBite includes a complete user experience across recipe discovery, planning, personalization, and shopping.
+
+## 🏠 Home
+
+<div align="center">
+
+<img src="screenshots/home.png" alt="SachiBite Home" width="900">
+
+</div>
+
+---
+
+## 🔎 Recipe Discovery
+
+<div align="center">
+
+<img src="screenshots/recipes.png" alt="SachiBite Recipe Discovery" width="900">
+
+</div>
+
+---
+
+## 📖 Recipe Details
+
+<div align="center">
+
+<img src="screenshots/recipe-details.png" alt="SachiBite Recipe Details" width="900">
+
+</div>
+
+---
+
+## 📊 Dashboard
+
+<div align="center">
+
+<img src="screenshots/dashboard.png" alt="SachiBite Dashboard" width="900">
+
+</div>
+
+---
+
+## ❤️ Favorites
+
+<div align="center">
+
+<img src="screenshots/favorites.png" alt="SachiBite Favorites" width="900">
+
+</div>
+
+---
+
+## 📅 Meal Planner
+
+<div align="center">
+
+<img src="screenshots/meal-planner.png" alt="SachiBite Meal Planner" width="900">
+
+</div>
+
+---
+
+## 🛒 Shopping List
+
+<div align="center">
+
+<img src="screenshots/shopping-list.png" alt="SachiBite Shopping List" width="900">
+
+</div>
+
+---
+
+## 👤 Profile
+
+<div align="center">
+
+<img src="screenshots/profile.png" alt="SachiBite Profile" width="900">
+
+</div>
+
+---
+
+## 🔐 Authentication
+
+### Login
+
+<div align="center">
+
+<img src="screenshots/login.png" alt="SachiBite Login" width="900">
+
+</div>
+
+### Register
+
+<div align="center">
+
+<img src="screenshots/register.png" alt="SachiBite Register" width="900">
+
+</div>
+
+---
+
 # 🧠 Application Architecture
 
 SachiBite follows a modular full-stack architecture.
 
 ```text
-                     SACHIBITE
-                         │
-             ┌───────────┴───────────┐
-             │                       │
-             ▼                       ▼
-       React Frontend          Express Backend
-             │                       │
-             │                       ├── Routes
-             │                       ├── Controllers
-             │                       ├── Middleware
-             │                       └── Services
-             │                       │
-             └──────── REST API ─────┘
-                                     │
-                                     ▼
-                               Mongoose ODM
-                                     │
-                                     ▼
-                                  MongoDB
+                         SACHIBITE
+                             │
+              ┌──────────────┴──────────────┐
+              │                             │
+              ▼                             ▼
+       React Frontend                 Express Backend
+              │                             │
+              │                        ┌────┴────┐
+              │                        │         │
+              │                     Routes   Middleware
+              │                        │         │
+              │                        ▼         ▼
+              │                   Controllers  Auth
+              │                        │
+              │                        ▼
+              │                    Services
+              │                        │
+              └─────── REST API ───────┘
+                                       │
+                                       ▼
+                                  Mongoose ODM
+                                       │
+                                       ▼
+                                    MongoDB
 ```
 
 ---
@@ -182,6 +288,7 @@ SachiBite follows a modular full-stack architecture.
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-671DD8?style=for-the-badge&logo=axios&logoColor=white)
 
 ## Backend
 
@@ -206,8 +313,8 @@ SachiBite follows a modular full-stack architecture.
 
 | Module | Description |
 |---|---|
-| 🏠 Home | Product introduction and quick discovery |
-| 🔎 Recipes | Browse, search and explore recipes |
+| 🏠 Home | Product introduction and recipe discovery |
+| 🔎 Recipes | Browse, search and filter recipes |
 | 📖 Recipe Details | Detailed recipe information |
 | 📊 Dashboard | Personalized application overview |
 | ❤️ Favorites | Save and manage favorite recipes |
@@ -296,6 +403,18 @@ sachibite/
 │   ├── vite.config.js
 │   └── .env.example
 │
+├── screenshots/
+│   ├── dashboard.png
+│   ├── favorites.png
+│   ├── home.png
+│   ├── login.png
+│   ├── meal-planner.png
+│   ├── profile.png
+│   ├── recipe-details.png
+│   ├── recipes.png
+│   ├── register.png
+│   └── shopping-list.png
+│
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
@@ -309,7 +428,7 @@ sachibite/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sachibite.git
+git clone https://github.com/sachinrv30/sachibite.git
 cd sachibite
 ```
 
@@ -355,7 +474,7 @@ Create:
 backend/.env
 ```
 
-Example:
+Add:
 
 ```env
 PORT=5001
@@ -365,7 +484,7 @@ JWT_SECRET=your_secure_jwt_secret
 
 ## Frontend
 
-Create the frontend environment file according to:
+Create the frontend environment file based on:
 
 ```text
 frontend/.env.example
@@ -385,15 +504,43 @@ Then seed the recipe database:
 npm run seed
 ```
 
-This populates the database with the application's recipe data.
+The seed process populates the database with recipe data.
 
 ---
 
 # ▶️ Running the Application
 
-## Start the Backend
+SachiBite uses three local services:
 
-From the project root:
+```text
+MongoDB   → 27017
+Backend   → 5001
+Frontend  → 5173
+```
+
+## Start MongoDB
+
+```bash
+mongod --config /opt/homebrew/etc/mongod.conf
+```
+
+Verify MongoDB:
+
+```bash
+mongosh --eval "db.adminCommand({ ping: 1 })"
+```
+
+Expected:
+
+```text
+{ ok: 1 }
+```
+
+---
+
+## Start Backend
+
+Open a new terminal:
 
 ```bash
 cd backend
@@ -408,9 +555,9 @@ http://localhost:5001
 
 ---
 
-## Start the Frontend
+## Start Frontend
 
-Open a second terminal:
+Open another terminal:
 
 ```bash
 cd frontend
@@ -423,89 +570,7 @@ Frontend:
 http://localhost:5173
 ```
 
-The exact URL will be displayed by Vite when the development server starts.
-
----
-
-# 🔄 User Journey
-
-```text
-                 👤 USER
-                    │
-                    ▼
-             🔐 AUTHENTICATION
-                    │
-                    ▼
-               🏠 DASHBOARD
-                    │
-          ┌─────────┼─────────┐
-          │         │         │
-          ▼         ▼         ▼
-        🔎        ❤️        📅
-      Recipes   Favorites   Planner
-          │         │         │
-          └─────────┼─────────┘
-                    │
-                    ▼
-                   🛒
-             Shopping List
-```
-
----
-
-# 📸 Application Screenshots
-
-Add your actual application screenshots to a `screenshots` folder.
-
-Recommended screenshots:
-
-```text
-screenshots/
-├── home.png
-├── recipes.png
-├── recipe-details.png
-├── dashboard.png
-├── favorites.png
-├── meal-planner.png
-├── shopping-list.png
-├── login.png
-├── register.png
-└── profile.png
-```
-
-Then add them to this section:
-
-```markdown
-## 📸 Application Preview
-
-### 🏠 Home
-
-![SachiBite Home](screenshots/home.png)
-
-### 🔎 Recipe Discovery
-
-![Recipe Discovery](screenshots/recipes.png)
-
-### 📖 Recipe Details
-
-![Recipe Details](screenshots/recipe-details.png)
-
-### 📊 Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### ❤️ Favorites
-
-![Favorites](screenshots/favorites.png)
-
-### 📅 Meal Planner
-
-![Meal Planner](screenshots/meal-planner.png)
-
-### 🛒 Shopping List
-
-![Shopping List](screenshots/shopping-list.png)
-```
+Open the URL displayed by Vite.
 
 ---
 
@@ -522,7 +587,7 @@ SachiBite follows a modular REST API architecture.
 | Shopping List | Manage shopping items |
 | Users | Manage user profile and preferences |
 
-The backend separates responsibilities across:
+Backend request flow:
 
 ```text
 Routes
@@ -549,22 +614,20 @@ User Registration
        ↓
 JWT Token Generated
        ↓
-Token Stored Client-Side
-       ↓
-Authenticated API Request
+Authenticated Request
        ↓
 Auth Middleware
        ↓
 Protected Resource
 ```
 
-This architecture allows authenticated users to securely access personalized functionality.
+This allows authenticated users to access personalized application functionality.
 
 ---
 
 # 🧠 Backend Architecture
 
-The backend is organized into separate layers to keep the application maintainable.
+The backend separates responsibilities into dedicated layers.
 
 ### Controllers
 
@@ -584,7 +647,7 @@ Handle authentication, validation, and errors.
 
 ### Services
 
-Contain reusable business logic such as:
+Contain reusable business logic including:
 
 - Recipe matching
 - Meal planning
@@ -592,7 +655,7 @@ Contain reusable business logic such as:
 
 ### Utilities
 
-Contain reusable helper functions such as JWT generation.
+Provide reusable helper functionality such as JWT generation.
 
 ---
 
@@ -619,12 +682,13 @@ SachiBite demonstrates practical experience with:
 - ⚠️ Error handling
 - 🌙 Theme support
 - 📱 Responsive layouts
+- 🔗 Frontend/backend integration
 
 ---
 
 # 🎯 Project Goals
 
-SachiBite was designed to solve common problems associated with meal planning:
+SachiBite was designed to address common meal-planning challenges:
 
 - Difficulty discovering suitable recipes
 - Repeatedly searching for meals
@@ -632,7 +696,7 @@ SachiBite was designed to solve common problems associated with meal planning:
 - Organizing weekly meals
 - Keeping track of ingredients
 - Managing shopping requirements
-- Creating a centralized cooking experience
+- Bringing the cooking workflow into one application
 
 ---
 
@@ -654,7 +718,7 @@ Potential future improvements include:
 
 # 🏆 Why SachiBite?
 
-SachiBite goes beyond a basic recipe application by connecting the complete meal-planning workflow:
+SachiBite connects the complete meal-planning workflow in one application:
 
 ```text
         🔎 DISCOVER
@@ -668,7 +732,7 @@ SachiBite goes beyond a basic recipe application by connecting the complete meal
          🍳 COOK
 ```
 
-The project demonstrates how multiple full-stack concepts can work together to create a practical user-focused application.
+The project combines frontend engineering, backend development, database management, authentication, REST APIs, business logic, and UI/UX into a practical full-stack application.
 
 ---
 
@@ -690,14 +754,15 @@ Building SachiBite provided practical experience in:
 - Debugging frontend/backend integration
 - Managing environment variables
 - Working with Git and GitHub
+- Organizing a production-style project structure
 
 ---
 
-# 👨‍💻 About
+# 👨‍💻 About the Developer
 
 SachiBite is a full-stack project created to demonstrate practical software engineering skills through a real-world application.
 
-The project combines:
+### Built with
 
 ```text
 Frontend Development
@@ -714,6 +779,13 @@ Business Logic
         +
 UI/UX Design
 ```
+
+---
+
+# 🔗 Project
+
+**GitHub Repository:**  
+https://github.com/sachinrv30/sachibite
 
 ---
 
